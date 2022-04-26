@@ -18,7 +18,6 @@ public class EjercicioContarLetras {
     public static String contarRepeticiones(char[] array) {
         if (array==null)
             return null;
-
         HashMap<Character, Integer> map = new HashMap<>();
         for (char caracter : array) {
             if (map.containsKey(caracter)) {

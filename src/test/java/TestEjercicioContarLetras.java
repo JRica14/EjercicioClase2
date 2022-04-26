@@ -42,5 +42,6 @@ public class TestEjercicioContarLetras {
         char [] input =null;
         String outputActual = EjercicioContarLetras.contarRepeticiones(input);
         Assertions.assertNull(outputActual);
+
     }
 }
